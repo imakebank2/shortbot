@@ -13,7 +13,7 @@ import (
 // Based from ChatGPT's creativity: https://chatgpt.com/s/t_69e6046a51b8819180de7d7605fb1327
 
 var triggers = []string{
-	"1", "2", "3", "4", "5", "6", "7", "8", "9", "0",
+	"67",
 }
 
 var common = []string{

@@ -52,6 +52,10 @@ func main() {
 	log.Println("Bot online! Press CTRL-C to exit.")
 
 	log.Println("Birthdays calendar has started.")
+
+	// Main chat
+	// mainChat := "1490651667744555039"
+	// session.ChannelMessageSend(mainChat, "Same")
 	go birthdays.CheckBirthdays(session, "./birthdays/birthdays.json", "main-chat")
 
 	// Blocks until CTRL-C or other signal is received
